@@ -7,7 +7,6 @@ This repository contains a Verilog implementation of a simple pipelined RISC-V C
 - `RISC_V_CPU_PIPELINE.srcs/`: RTL source files
 - `RISC_V_CPU_PIPELINE.xdc/`: constraints
 - `RISC_V_CPU_PIPELINE.xpr`: Vivado project file
-- `RISC_V_CPU_PIPELINE.sim/`: simulation-related files (generated run artifacts are ignored)
 
 ## Main Modules
 
@@ -25,19 +24,13 @@ This repository contains a Verilog implementation of a simple pipelined RISC-V C
 
 ## Requirements
 
-- Vivado (recommended: same major version used to create this project)
+- Vivado
 
 ## How to Open
 
-1. Open Vivado.
-2. Select **Open Project**.
-3. Choose `RISC_V_CPU_PIPELINE.xpr`.
-
-## Notes
-
-- Large/generated Vivado artifacts are excluded via `.gitignore` to keep the repository clean.
-- If your Vivado version differs, Vivado may request project upgrade steps.
+1. Use vivado and add source files or
+2. Click `RISC_V_CPU_PIPELINE.xpr`.
 
 ## License
 
-No license file has been added yet. If you plan to make this public, consider adding a license (for example, MIT).
+No license file has been added yet.
